@@ -1,0 +1,222 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: International Phone Number Format\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-26 21:07+0200\n"
+"PO-Revision-Date: 2023-10-26 21:07+0200\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: configs\n"
+
+#: configs/admin-settings-fields.php:13
+msgid "International Phone Number Settings"
+msgstr "إعدادات التنسيق الدولي لرقم الهاتف"
+
+#: configs/admin-settings-fields.php:14
+msgid "Set up international phone number configurations"
+msgstr "التحكم في إعدادات تنسيق رقم الهاتف الدولي"
+
+#: configs/admin-settings-fields.php:19
+msgid "Activate"
+msgstr "تفعيل"
+
+#: configs/admin-settings-fields.php:20
+msgid "Enable or disable the formatting of phone numbers."
+msgstr "تمكين أو تعطيل تنسيق أرقام الهواتف."
+
+#: configs/admin-settings-fields.php:25
+msgid "Lookup User's Country"
+msgstr "تحديد الدولة للمستخدم بشكل تلقائي"
+
+#: configs/admin-settings-fields.php:26
+msgid ""
+"Automatically set and initialize the selected country based on the user's IP "
+"address using the IP lookup service."
+msgstr ""
+"قم بتعيين وتهيئة الدولة تلقائيًا بناءً على عنوان IP الخاص بالمستخدم باستخدام "
+"خدمة البحث عن IP."
+
+#: configs/admin-settings-fields.php:33
+msgid "Country Cache Expiry (hours)"
+msgstr "انتهاء صلاحية التخزين المؤقت للدولة (ساعات)"
+
+#: configs/admin-settings-fields.php:34
+msgid "Set the duration for caching the user's country."
+msgstr ""
+"تحديد مدة التخزين المؤقت للدولة، يساعد هذا الخيار في تقليل عدد الطلبات "
+"للاستعلام عن مكان المستخدم."
+
+#: configs/frontend-fields.php:15 configs/frontend-fields.php:35
+msgid "Billing Phone"
+msgstr "رقم هاتف الفوترة"
+
+#: configs/frontend-fields.php:16
+msgid ""
+"This is the billing phone number on the frontend checkout form and the edit "
+"billing address form."
+msgstr ""
+"حقل رقم هاتف الفوترة الخاص بنموذج إتمام الطلب ونموذج تعديل بيانات الفوترة من "
+"اعدادات الحساب."
+
+#: configs/frontend-fields.php:25 configs/frontend-fields.php:45
+msgid "Shipping Phone"
+msgstr "رقم هاتف الشحن"
+
+#: configs/frontend-fields.php:26
+msgid ""
+"This is the shipping phone number on the frontend checkout form and the edit "
+"shipping address form."
+msgstr ""
+"حقل رقم هاتف الشحن الخاص بنموذج إتمام الطلب ونموذج تعديل بيانات الشحن من "
+"اعدادات الحساب."
+
+#: configs/frontend-fields.php:36
+msgid "This is the billing phone number field for the backend edit order page."
+msgstr "حقل رقم هاتف الفوترة لصفحة تحرير الطلب في لوحة التحكم."
+
+#: configs/frontend-fields.php:46
+msgid ""
+"This is the shipping phone number field for the backend edit order page."
+msgstr "حقل رقم هاتف الشحن لصفحة تحرير الطلب في لوحة التحكم."
+
+#: src/core/class-ipnfp-appliaction.php:81
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: src/core/class-ipnfp-appliaction.php:114
+#: src/includes/class-ipnfp-adminarea.php:34
+msgid "International Phone Number Format"
+msgstr "التنسيق الدولي لرقم الهاتف"
+
+#: src/core/class-ipnfp-appliaction.php:122
+#, php-format
+msgid "%1$s requires %2$s to be activated."
+msgstr "يتطلب %1$s أن يكون الملحق %2$s مفعل."
+
+#: src/helpers/class-ipnfp-global-helper.php:22
+msgid "The field must be a valid phone number"
+msgstr "تنسيق رقم الهاتف غير صحيح"
+
+#: src/helpers/class-ipnfp-global-helper.php:23
+msgid "The field is required"
+msgstr "الحقل مطلوب"
+
+#: src/services/class-ipnfp-validate-service.php:44
+#, php-format
+msgid "<strong>%1$s</strong> format is invalid"
+msgstr "تنسيق <strong>%1$s</strong> غير صحيح"
+
+#: src/views/admin-additional-fields.php:13
+msgid "Fields"
+msgstr "الحقول"
+
+#: src/views/admin-additional-fields.php:17
+msgid ""
+"Configure and set up formatted fields for applying an international phone "
+"number format."
+msgstr "تكوين وإعداد الحقول لتطبيق تنسيق رقم الهاتف الدولي."
+
+#: src/views/admin-additional-fields.php:24
+msgid "Field Label"
+msgstr "اسم الحقل"
+
+#: src/views/admin-additional-fields.php:27
+msgid "Enable"
+msgstr "تفعيل"
+
+#: src/views/admin-additional-fields.php:30
+msgid "Frontend Validation"
+msgstr "التحقق من التنسيق (الواجهة)"
+
+#: src/views/admin-additional-fields.php:31
+msgid "Allows validation of the field in the frontend using the browser"
+msgstr "يسمح بالتحقق من صحة الحقل في الواجهة الأمامية باستخدام المتصفح"
+
+#: src/views/admin-additional-fields.php:34
+msgid "Backend Validation"
+msgstr "التحقق من الحقل"
+
+#: src/views/admin-additional-fields.php:35
+msgid "Allows validation of the field in the backend on the server side"
+msgstr "يسمح بالتحقق من صحة تنسيق الحقل في الواجهة الخلفية"
+
+#: src/views/admin-additional-fields.php:38
+msgid "View Countries From"
+msgstr "عرض الدول من"
+
+#: src/views/admin-additional-fields.php:39
+msgid "Show countries based on your WooCommerce settings"
+msgstr "اعرض الدول بناءً على إعدادات WooCommerce الخاصة بك"
+
+#: src/views/admin-additional-fields.php:42
+msgid "Field Type"
+msgstr "نوع الحقل"
+
+#: src/views/admin-additional-fields.php:43
+msgid ""
+"The field type depends on where the field will appear and be associated with "
+"it"
+msgstr "يعتمد نوع الحقل على المكان الذي سيظهر فيه الحقل ويكون مرتبطًا به"
+
+#: src/views/admin-additional-fields.php:58
+msgid "Does Not Exist"
+msgstr "غير موجود"
+
+#: src/views/admin-additional-fields.php:59
+msgid "This field does not exist in WooCommerce checkout fields."
+msgstr "هذا الحقل غير موجود ولم يتم تعينه في نموذج صفحة اتمام الطلب."
+
+#: src/views/admin-additional-fields.php:67
+msgid "Required"
+msgstr "إجباري"
+
+#: src/views/admin-additional-fields.php:68
+msgid "This is a required WooCommerce checkout field."
+msgstr "هذا الحقل اجباري في نموذج صفحة اتمام الطلب."
+
+#: src/views/admin-additional-fields.php:72
+msgid "Optional"
+msgstr "اختياري"
+
+#: src/views/admin-additional-fields.php:73
+msgid "This is an optional WooCommerce checkout field."
+msgstr "هذا الحقل اختياري في نموذج صفحة اتمام الطلب."
+
+#: src/views/admin-additional-fields.php:139
+msgid "All Countries"
+msgstr "كل الدول"
+
+#: src/views/admin-additional-fields.php:140
+msgid "Billing Countries"
+msgstr "دول الفوترة"
+
+#: src/views/admin-additional-fields.php:141
+msgid "Shipping Countries"
+msgstr "دول الشحن"
+
+#: src/views/admin-additional-fields.php:155
+msgid "Custom"
+msgstr "مخصص"
+
+#: src/views/admin-additional-fields.php:156
+msgid "Billing"
+msgstr "الفوترة"
+
+#: src/views/admin-additional-fields.php:157
+msgid "Shipping"
+msgstr "الشحن"
+
+#: src/views/admin-additional-fields.php:169
+msgid "No Fields"
+msgstr "لاتوجد حقول"

@@ -1,0 +1,83 @@
+.woocommerce table.form-table.additional-fields {
+	position: relative;
+}
+
+.woocommerce table.form-table.additional-fields td,
+.woocommerce table.form-table.additional-fields th {
+	display: table-cell !important;
+	padding: 1em !important;
+	vertical-align: top;
+}
+
+.woocommerce table.form-table.additional-fields tr:nth-child(odd) td {
+	background: #f9f9f9;
+}
+
+.woocommerce table.form-table.additional-fields tr:nth-child(odd) th {
+	background: #f9f9f9;
+}
+
+.additional-fields-haed.disabled,
+.additional-fields-desc.disabled,
+.woocommerce table.disabled,
+.woocommerce tr.disabled,
+.woocommerce td.disabled {
+	filter: blur(2px);
+	pointer-events: none;
+	user-select: none;
+}
+
+.woocommerce table.form-table.additional-fields select {
+	width: 100%;
+}
+
+.woocommerce table.form-table.additional-fields .optional {
+	display: none;
+}
+
+
+.woocommerce table.form-table.additional-fields tr {
+	border-bottom: 1px solid #d9d9d9;
+}
+
+.woocommerce table.form-table.additional-fields tr .label {
+	display: block;
+}
+
+.woocommerce table.form-table.additional-fields tr .key {
+	background: rgb(0 0 0 / 5%);
+	font-weight: normal;
+	font-size: .9em;
+	border-bottom: 1px dashed #b5b5b5;
+	unicode-bidi: plaintext;
+}
+
+.woocommerce table.form-table.additional-fields tr .desc {
+	display: block;
+	color: #6d6d6d;
+	font-weight: normal;
+	font-size: .9em;
+	margin-top: 10px;
+}
+
+.woocommerce table.form-table.additional-fields .wc-field {
+	color: #845ec7;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.woocommerce table.form-table.additional-fields .wc-field .wc-required {
+	color: #da1e1e;
+}
+
+.woocommerce table.form-table.additional-fields .wc-field .wc-optional {
+	color: #0c6607;
+}
+
+.woocommerce table.form-table.additional-fields .wc-field .wc-not-exist {
+	color: #616161;
+}
+
+.woocommerce table.form-table.additional-fields .wc-field .woocommerce-help-tip {
+	margin: 0;
+}
